@@ -1,0 +1,168 @@
+DOCTYPE html>
+<html<!DOCTYPE html>
+<html lang="en<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f0f0f0; }
+        h1 { color: #333; }
+        p { color: #555; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is my first webpage!</p>
+</body>
+</html>"
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anowar Hussain</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #16213e);
+    color: white;
+    transition: 0.3s;
+}
+
+.light-mode {
+    background: linear-gradient(135deg, #ffffff, #e3f2fd, #fce4ec);
+    color: black;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    background: linear-gradient(45deg, #ff4ecd, #00f2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff4ecd, #00f2ff);
+    color: white;
+    border-radius: 20px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+
+.light-mode .card {
+    background: rgba(0,0,0,0.05);
+}
+
+a {
+    color: #00f2ff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Anowar Hussain</h1>
+    <p class="tagline">Dubai Life | Real History | Content Creator</p>
+    <button class="btn" onclick="toggleMode()">Toggle Dark/Light</button>
+</header>
+
+<section>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I create content about Dubai life, real history, and trending topics in Bangla. Follow my journey and learn something new every day.</p>
+    </div>
+
+    <div class="card">
+        <h2>YouTube</h2>
+        <p>Watch my latest videos and shorts.</p>
+        <a href="#">Visit My Channel</a>
+    </divhttps://youtube.com/@anowardubai?si=H-RxqdWLgvEjfC46
+
+    <div class="card">
+        <h2>Dubai Life</h2>
+        <p>Explore real life in Dubai, jobs, salary reality, and daily experiences.</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+    </div>hanowar445@gmail.com
+</section>
+
+<footer>
+    <p>© 2026 Anowar Hussain | All Rights Reserved</p>
+</footer>
+
+<script>
+function toggleMode() {
+    document.body.classList.toggle("light-mode");
+}
+</script>
+
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Snake Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="game-container">
+		<canvas id="gc" class="game-canvas" width="400" height="400"></canvas>
+	</div>
+	<div class="keys">
+	  <a class="up arr" onclick="Snake.action('up')">
+	    <i class="chevron up"></i></a>
+	  <br />
+	  <a class="left arr" onclick="Snake.action('left')">
+	    <i class="chevron left"></i></a>
+	  <a class="down arr" onclick="Snake.action('down')">
+	    <i class="chevron down"></i></a>
+	  <a class="right arr" onclick="Snake.action('right')">
+	    <i class="chevron right"></i></a>
+	</div>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
